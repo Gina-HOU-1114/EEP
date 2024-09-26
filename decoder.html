@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business rules explainer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Regex Decoder</h1>
+        
+        <div class="input-section">
+            <label for="regexInput">Input Regex String:</label>
+            <input type="text" id="regexInput" placeholder="Please enter your regex expression here" />
+            <button id="analyzeBtn">EXPLAIN</button>
+        </div>
+        
+        <div class="analysis-section">
+            <h3>Railroad Diagram</h3>
+            <div id="analysisOutput" class="output-box"></div>
+        </div>
+        
+        <div class="explanation-section">
+            <h3>Explanation</h3>
+            <div id="explanationOutput" class="output-box"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
